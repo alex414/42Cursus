@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   h_push_swap.h                                      :+:      :+:    :+:   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adiaz-do <adiaz-do@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 20:38:45 by adiaz-do          #+#    #+#             */
-/*   Updated: 2021/11/03 02:15:50 by adiaz-do         ###   ########.fr       */
+/*   Updated: 2022/05/08 13:46:31 by adiaz-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef H_PUSH_SWAP_H
-# define  H_PUSH_SWAP_H
+#ifndef PUSH_SWAP_H
+# define  PUSH_SWAP_H
 
 # include <stdio.h>
 # include <unistd.h>

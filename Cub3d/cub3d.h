@@ -6,7 +6,7 @@
 /*   By: adiaz-do <adiaz-do@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/04 08:30:34 by adiaz-do          #+#    #+#             */
-/*   Updated: 2021/05/10 18:46:09 by adiaz-do         ###   ########.fr       */
+/*   Updated: 2022/05/08 13:42:12 by adiaz-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,10 @@
 # include "./minilibx/mlx.h"
 # include "./libft/libft.h"
 # include "./get_next_line/get_next_line.h"
-# include "fcntl.h"
-# include "unistd.h"
-# include "stdlib.h"
-# include "math.h"
+# include <fcntl.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <math.h>
 
 # define PLAYER_SPEED 0.2
 # define ROTATION_SPEED 0.1

@@ -6,11 +6,11 @@
 /*   By: adiaz-do <adiaz-do@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 20:37:01 by adiaz-do          #+#    #+#             */
-/*   Updated: 2021/11/01 20:37:02 by adiaz-do         ###   ########.fr       */
+/*   Updated: 2022/05/08 13:46:57 by adiaz-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "h_push_swap.h"
+#include "push_swap.h"
 
 int	ft_atoi_modified(const char *str)
 {

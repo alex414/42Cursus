@@ -6,11 +6,11 @@
 /*   By: adiaz-do <adiaz-do@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 01:45:22 by adiaz-do          #+#    #+#             */
-/*   Updated: 2021/11/03 05:40:56 by adiaz-do         ###   ########.fr       */
+/*   Updated: 2022/05/08 13:46:53 by adiaz-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "h_push_swap.h"
+#include "push_swap.h"
 
 void	rotate(t_list **stk)
 {

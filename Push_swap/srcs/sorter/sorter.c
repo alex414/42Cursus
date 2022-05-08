@@ -6,11 +6,11 @@
 /*   By: adiaz-do <adiaz-do@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 20:38:24 by adiaz-do          #+#    #+#             */
-/*   Updated: 2021/11/02 21:49:40 by adiaz-do         ###   ########.fr       */
+/*   Updated: 2022/05/08 13:47:30 by adiaz-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "h_push_swap.h"
+#include "push_swap.h"
 
 void	operator_commands(t_list **stk_a, t_list **stk_b, char *command)
 {

@@ -6,11 +6,11 @@
 /*   By: adiaz-do <adiaz-do@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 20:15:09 by adiaz-do          #+#    #+#             */
-/*   Updated: 2021/11/03 00:59:55 by adiaz-do         ###   ########.fr       */
+/*   Updated: 2022/05/08 13:47:34 by adiaz-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "h_push_swap.h"
+#include "push_swap.h"
 
 void	clean_lst(void *cont)
 {

@@ -6,11 +6,11 @@
 /*   By: adiaz-do <adiaz-do@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 20:38:18 by adiaz-do          #+#    #+#             */
-/*   Updated: 2021/11/06 19:39:42 by adiaz-do         ###   ########.fr       */
+/*   Updated: 2022/05/08 13:47:26 by adiaz-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "h_push_swap.h"
+#include "push_swap.h"
 
 void	two_size(t_list *stk, int *num)
 {

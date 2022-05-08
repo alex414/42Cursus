@@ -1,0 +1,69 @@
+version: "3.8"
+
+volumes:
+    db_data:
+        driver: local
+        driver_opts:
+            type: none
+            o: bind
+            device: root/data/db
+    wp_data:
+        driver: local
+        driver_opts:
+            type: none
+            o: bind
+            device: root/data/wp
+ 
+services:
+    mariadb:
+        restart: always
+        image: mariadb
+        build:
+            context: ./requeriments/mariadb
+            args:
+                - MYSQL_USER=${MYSQL_USER}
+                - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+                - MYSQL_PASSWORD_ADM=${MYSQL_PASSWORD_ADM}
+                - MYSQL_USER_ADM=${MYSQL_USER_ADM}
+                - MYSQL_ROOT_PASS=${MYSQL_ROOT_PASS}
+        container_name: mariadb
+        volumes:
+          - db_data:/var/lib/mysql
+        networks:
+            - Inception
+    wordpress:
+        restart: always
+        depends_on:
+            - mariadb
+        image: wordpress
+        build:
+            context: ./requeriments/wordpress
+        container_name: wordpress
+        volumes:
+           - wp_data:/var/www/html/wordpress
+        ports: 
+            - "9000:9000"
+        networks:
+            - Inception
+
+    nginx:
+        restart: always
+        depends_on:
+            - wordpress
+        image: nginx
+        build:
+            context: ./requeriments/nginx
+            args:
+                - MYSQL_USER=${MYSQL_USER}
+                - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+                - MYSQL_HOST=${MYSQL_HOST}
+        container_name: nginx
+        ports:
+            - "443:443"
+        volumes:
+            - wp_data:/var/www/html/wordpress
+        networks:
+            - Inception
+
+networks:
+    Inception:

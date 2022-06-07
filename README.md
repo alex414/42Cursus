@@ -3,17 +3,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/alex414/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+<!--    <img src="logo.png" alt="Logo" width="250" height="250" alt="Avatar">
+  </a>-->
   <p align="center">
     <br />
     <a href="https://github.com/alex414"><strong>Perfil</strong></a>
     <br />
-    <br />
-    <a href="a">C & C++</a>
-    . .
-    <a href="a">Docker</a>
-  </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -22,16 +17,6 @@
     <li>
       <a href="#42">Sobre 42</a>
       <ul>
-        <li><a href="#42b">Contenido</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Contenido</a>
-      <ul>
-        <li>C && C++</a></li>
-        <li>Docker</a></li>
-      </ul>
-    </li>
     <li>
       <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)">C</a>
       <ul>

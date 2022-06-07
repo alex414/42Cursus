@@ -28,29 +28,29 @@
     <li>
       <a href="#getting-started">Contenido</a>
       <ul>
-        <li><a href="#c">C && C++</a></li>
-        <li><a href="#docker">Docker</a></li>
+        <li>C && C++</a></li>
+        <li>Docker</a></li>
       </ul>
     </li>
     <li>
-      <a href="C">C</a>
+      <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)">C</a>
       <ul>
-        <li><a href="#c">Libft</a></li>
-        <li><a href="#docker">Get_next_line</a></li>
-        <li><a href="#c">ft_Printf</a></li>
-        <li><a href="#docker">Minitalk</a></li>
-        <li><a href="#c">Fractol</a></li>
-        <li><a href="#docker">Philosophers</a></li>
-        <li><a href="#docker">Minishell</a></li>
-        <li><a href="#docker">Cpp piscine</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Libft">Libft</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Get_next_line">Get_next_line</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Ft_printf">ft_Printf</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Minitalk">Minitalk</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Fract-ol">Fractol</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Philosophers">Philosophers</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/XD">Minishell</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/XD">Cpp piscine</a></li>
       </ul>
     </li>
     <li>
-      <a href="Docker">Docker</a>
+      <a href="https://www.docker.com/">Docker</a>
       <ul>
-        <li><a href="#c">Ft_Server</a></li>
-        <li><a href="#docker">Inception</a></li>
-        <li><a href="#c">Ft_Trascendence</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Ft_server">Ft_Server</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Inception">Inception</a></li>
+        <li><a href="XD">Ft_Trascendence</a></li>
       </ul>
     </li>
   </ol>

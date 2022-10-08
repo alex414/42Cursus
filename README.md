@@ -12,10 +12,9 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
   <ol>
     <li>
-      <a href="#42">Sobre 42</a>
+      <a href="https://www.42madrid.com/">Sobre 42</a>
       <ul>
     <li>
       <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)">C</a>
@@ -39,4 +38,3 @@
       </ul>
     </li>
   </ol>
-</details>

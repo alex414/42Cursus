@@ -21,7 +21,7 @@
       <ul>
         <li><a href="https://github.com/alex414/42Cursus/tree/master/Libft">Libft</a></li>
         <li><a href="https://github.com/alex414/42Cursus/tree/master/Get_next_line">Get_next_line</a></li>
-        <li><a href="https://github.com/alex414/42Cursus/tree/master/Ft_printf">ft_Printf</a></li>
+        <li><a href="https://github.com/alex414/42Cursus/tree/master/Ft_printf">Ft_Printf</a></li>
         <li><a href="https://github.com/alex414/42Cursus/tree/master/Minitalk">Minitalk</a></li>
         <li><a href="https://github.com/alex414/42Cursus/tree/master/Fract-ol">Fractol</a></li>
         <li><a href="https://github.com/alex414/42Cursus/tree/master/Philosophers">Philosophers</a></li>
